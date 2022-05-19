@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
 public class MainPageTest {
-    MainPage mainPage = new MainPage();
+    MainPage mainPage = new MainPage();;
 
     @BeforeAll
     public static void setUpAll() {
